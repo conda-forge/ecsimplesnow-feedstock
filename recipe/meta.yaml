@@ -10,11 +10,12 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win and vc<14]
 
 requirements:
   build:
     - {{ compiler('fortran') }}
+    - {{ compiler('cxx') }}  # [win]
     - cmake
 
 test:
