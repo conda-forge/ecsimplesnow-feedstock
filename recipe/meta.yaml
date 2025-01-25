@@ -20,9 +20,6 @@ requirements:
     - {{ stdlib("c") }}  # [win]
     - cmake
     - make  # [unix]
-  host:
-    - cmake
-    - bmi-fortran
 
 test:
   source_files:
