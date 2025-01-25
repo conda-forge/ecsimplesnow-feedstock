@@ -1,4 +1,4 @@
-{% set version = "1.1.2" %}
+{% set version = "1.2.1" %}
 
 package:
   name: ecsimplesnow
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/permamodel/Snow_BMI_Fortran/archive/v{{ version }}.tar.gz
-  sha256: 9be93c5d16b649819cb531e8386c31de3b6db9087920154fe8ad131bb28690d0
+  sha256: 9b7d3ac77de2d88d0e9017ec66e7d4fc9f46137c5570d5397d2512e4e62a9d77
 
 build:
-  number: 2
+  number: 1
   skip: true  # [win and vc<14]
 
 requirements:
